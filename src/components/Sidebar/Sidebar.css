@@ -1,0 +1,121 @@
+/* Sidebar.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Sidebar {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #f0f4f9;
+    padding: 20px 15px;
+    gap: 10px;
+}
+
+/* Top section styling */
+.Sidebar .top {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    width: 100%;
+}
+
+/* Menu icon styling */
+.Sidebar .menu {
+    cursor: pointer;
+    margin-bottom: 10px; /* Small margin to separate from the next item */
+    width: 20px; /* Set icon size */
+    height: 20px;
+}
+
+/* New chat button styling */
+.Sidebar .new-chat {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 15px;
+    background-color: #e6eaf1;
+    border-radius: 50px;
+    font-size: 14px;
+    color: grey;
+    cursor: pointer;
+    margin-bottom: 10px; /* Adjust spacing below the "New Chat" button */
+    width: 100%;
+}
+
+/* Recent section title styling */
+.Sidebar .recent-title {
+    margin: 5px 0; /* Reduced margin to make the spacing more even */
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Recent entry styling */
+.Sidebar .recent-entry {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 12px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 5px; /* Reduced margin to decrease space between entries */
+    font-size: 14px;
+    color: grey;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.2s ease;
+    animation: fadeIn 1.5s;
+}
+
+/* Hover effect for recent entries */
+.Sidebar .recent-entry:hover {
+    background-color: #e2e6eb;
+}
+
+/* Bottom section styling */
+.Sidebar .bottom {
+    margin-top: auto; /* Adjust if there is too much space above the bottom section */
+    display: flex;
+    flex-direction: column;
+    gap: 5px; /* Consistent spacing for bottom items */
+    width: 100%;
+}
+
+/* Bottom item styling */
+.Sidebar .bottom-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 12px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 5px; /* Consistent spacing for bottom items */
+    font-size: 14px;
+    color: grey;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.2s ease;
+}
+
+/* Hover effect for bottom items */
+.Sidebar .bottom-item:hover {
+    background-color: #e6eaf1;
+}
+
+/* Adjust image size for consistency */
+.Sidebar img {
+    width: 20px; /* Consistent icon size */
+    height: 20px;
+}
+@media (max-width:600px){
+    .Sidebar{
+        display: none;
+    }
+
+}
