@@ -1,8 +1,34 @@
-# React + Vite
+# 🤖 J.A.R.V.I.S. — AI Assistant Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A futuristic **AI Assistant Web App** built using **React** that mimics the personality and responsiveness of J.A.R.V.I.S. from Iron Man. It integrates the **Gemini API (Google's LLM)** to provide intelligent, context-aware conversations — all in a sleek, modern interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Features
+
+- 🧠 **Natural Language Understanding** via Gemini LLM
+- 🗣️ **Real-time conversation interface**
+- 🎨 **Iron Man–inspired theme & UI**
+- 📱 Fully responsive and mobile-friendly
+- ⚡ Quick replies and context-aware memory (within session)
+- 💬 Typing animation for immersive experience
+
+---
+
+## 🔧 Tech Stack
+
+| Layer           | Technology                       |
+|----------------|-----------------------------------|
+| Frontend        | React (Vite) + Tailwind CSS       |
+| LLM Backend     | Gemini API (Google AI)            |
+| State Management| useState + useEffect (React Core) |
+| UI Components   | Custom JSX + conditional rendering|
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repo
+```bash
+git clone https://github.com/AnasGhazi/jarvis-gemini-ai.git
+cd jarvis-gemini-ai
